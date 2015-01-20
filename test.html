@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        #talkbubble {
+            width: 500px;
+            height: 500px;
+            background: gold;
+            position: relative;
+            -moz-border-radius:    17px;
+            -webkit-border-radius: 40px;
+            border-radius:         0px;
+            border-bottom: 100px solid green;
+            border-left: 60px solid red;
+            border-right: 30px solid black;
+        }
+        #talkbubble:before {
+            content:"";
+            position: absolute;
+            right: 100%;
+            top: 26px;
+            width: 0;
+            height: 0;
+            border-top: 13px solid transparent;
+            border-right: 26px solid red;
+            border-bottom: 13px solid transparent;
+        }
+
+    </style>
+</head>
+<body>
+<div id="talkbubble">asdasd</div>
+</body>
+</html>

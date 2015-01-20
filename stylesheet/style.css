@@ -1,0 +1,104 @@
+.mainbg {
+    background: url("../images/container-bg1.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.header {
+    background: url("../images/Header.png") no-repeat center center;
+    background-size: 100% 100%;
+
+}
+
+.student-info {
+    margin-top: 5px;
+}
+
+.home {
+    margin-top: 0;
+}
+
+.courses {
+    margin-top: 20px;;
+}
+
+.assignments {
+    margin-top: 40px;
+}
+
+.exams {
+    margin-top: 55px;
+}
+
+.time-table {
+    margin-top: 45px;
+}
+
+.schedule {
+    margin-top: 30px;
+}
+
+.slick-slide{
+    text-align: center;
+}
+
+.content {
+    background: url("../images/content-bg.png") no-repeat;
+
+}
+
+.todo {
+    border: 1px solid #1dabb1;
+    /*padding: 10px 40px;*/
+    /*border-radius: 25px;*/
+    background: -webkit-linear-gradient(#c1dccf, #1dabb1);
+    /*For Safari 5.1 to 6.0*/
+    background: -o-linear-gradient(#c1dccf, #1dabb1);
+    /*For Opera 11.1 to 12.0*/
+    background: -moz-linear-gradient(#c1dccf, #1dabb1);
+    /*For Firefox 3.6 to 15*/
+    background: linear-gradient(#c1dccf, #1dabb1);
+    /*Standard syntax (must be last)*/
+}
+
+.progressDiv {
+    background: url("../images/progress-bg.png");
+    background-size: 100% 100%;
+}
+
+.wobble-vertical:hover{
+    text-decoration: none;
+    font-size: large;
+}
+.wobble-vertical:focus{
+    text-decoration: none;
+}
+.wobble-vertical:active{
+    text-decoration: none;
+}
+
+.page-heading{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.moreBtn{
+    margin-bottom: 5px;
+}
+
+.teacherposts{
+    margin-top: 20px;
+    background: url("../images/teacherposts-bg.png") no-repeat;
+    background-size:100% 100%;
+}
+
+.dashboard{
+    background: url("../images/dsahboardbg.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.hrbar{
+    background: url("../images/hrbar.png") no-repeat;
+    background-size: 100% 100%;
+    margin-top: 40px;
+    margin-bottom:15px;
+}
