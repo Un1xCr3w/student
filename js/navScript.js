@@ -6,6 +6,8 @@ $('.lazy').slick({
     lazyLoad: 'ondemand',
     slidesToShow: 5,
     rtl: false,
+    //vertical:true,
+
     slidesToScroll: 1,
     responsive: [
         {

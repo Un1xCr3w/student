@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css"/>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" href="JQuery/jquery-ui.css"/>
+    <link rel="stylesheet" href="stylesheet/stylesheet.css"/>
+    <link rel="stylesheet" href="lib/slick.css"/>
+    <link rel="stylesheet" href="stylesheet/Hover-master/css/hover.css"/>
+    <link rel="stylesheet" href="stylesheet/font-awesome.min.css"/>
+    <link rel="stylesheet" href="stylesheet/font-awesome-ie7.min.css"/>
+    <link rel="stylesheet" href="stylesheet/cssSocialSlider/style.css"/>
+
+
+    <!-- <link rel="stylesheet" href="dist/css/stylesheet-rtl.css"/> -->
+
+</head>
+<body>
+
+<div class="container-fluid mainbg">
+    <div class="col-lg-offset-1 col-lg-10 main-body ">
+
+        <!--new-->
+        <div class="row">
+
+            <!-- start Of Logo -->
+            <ul class="headerUl header col-md-12">
+                <li class=" col-lg-2 col-md-2 col-sm-2 col-xs-4">
+                    <img src="images/logo.png" alt="logo"/>
+                </li>
+                <!-- End Of Logo -->
+
+                <!--start notification menu-->
+                <li class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                    <a data-toggle="dropdown" class="dropdown-toggle notfication" href="#">
+                        <!--<i class="icon-bell-alt icon-animated-bell"></i>-->
+                        <img class="img-responsive notIcon col-lg-3 noPadding" src="images/notIcon.png"/>
+                        <span class="badge badge-important col-lg-2" style="padding: 3px 7px;">8</span>
+                    </a>
+                    <span class="col-lg-12 white-txt">Notification</span>
+
+
+                    <ul class="pull-left dropdown-navbar navbar-pink dropdown-menu dropdown-caret dropdown-closer">
+                        <li class="nav-header">
+                            <i class="icon-warning-sign"></i>
+                            8 Notifications
+
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <div class="clearfix">
+											<span class="pull-left">
+												<i class="btn btn-mini no-hover btn-pink icon-comment"></i>
+												New Comments
+											</span>
+                                    <span class="pull-right badge badge-info">+12</span>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <i class="btn btn-mini icon-user"></i>
+                                Bob just signed up as an editor ...
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <div class="clearfix">
+											<span class="pull-left">
+												<i class="btn btn-mini no-hover icon-shopping-cart"></i>
+												New Orders
+											</span>
+                                    <span class="pull-right badge badge-success">+8</span>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <div class="clearfix">
+											<span class="pull-left">
+												<i class="btn btn-mini no-hover icon-twitter"></i>
+												Followers
+											</span>
+                                    <span class="pull-right badge badge-info">+11</span>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                See all notifications
+                                <i class="icon-arrow-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                </li>
+                <!--end notification menu-->
+
+                <li class="col-lg-offset-4 col-md-offset-4 col-xs-offset-4 col-lg-3 userAcc">
+                    <div class="noPadding col-lg-7">
+                        <img class="img-responsive col-fx-2 pull-left" src="images/active-star.png"/>
+                        <img class="img-responsive col-fx-2 pull-left" src="images/active-star.png"/>
+                        <img class="img-responsive col-fx-2 pull-left" src="images/active-star.png"/>
+                        <img class="img-responsive col-fx-2 pull-left" src="images/star.png"/>
+                        <img class="img-responsive col-fx-2 pull-left" src="images/star.png"/>
+                        </br>
+                        <span class="user-info">
+                            <small>Welcome,</small>
+                            <span class="name"> Student Name</span>
+                            <span class="grade"> Grade 2</span>
+                        </span>
+                    </div>
+                    <img class="noPadding nav-user-photo col-lg-5 pull-right" src="images/student%20img.png"
+                         alt="Jason's Photo"/>
+                    <!--End Of Stars-->
+                </li>
+
+                <li class="col-lg-1 userMenu">
+                    <a data-toggle="dropdown" href="#" class="dropdown-toggle">
+                        <i class="icon-chevron-down  pull-right white-txt"></i>
+                    </a>
+
+                    <ul class="user-menu pull-right dropdown-menu dropdown-yellow dropdown-caret dropdown-closer">
+                        <li>
+                            <a href="#">
+                                <i class="icon-cog"></i>
+                                Settings
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <i class="icon-user"></i>
+                                Profile
+                            </a>
+                        </li>
+
+
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <i class="icon-off"></i>
+                                Logout
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+        <!--new-->
+
+        <!-- End Of Header -->
+        <div class="row">
+            <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-9 col-xs-offset-2 col-sm-10">
+
+                <div id="slider" class="lazy">
+                    <div class="col-sm-3 ">
+                        <div class="home">
+                            <a href="#" class="wobble-vertical active" id="home">
+                                <img data-lazy="imgs/homeIcon.png"/>
+                                <span>Home</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 ">
+                        <div class="courses">
+                            <a href="#" class="wobble-vertical" id="courses">
+                                <img data-lazy="imgs/coursesIcon.png"/>
+                                <span>Courses</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 ">
+                        <div class="assignments">
+                            <a href="#" class="wobble-vertical" id="assignments">
+                                <img data-lazy="imgs/assignmentIcon.png"/>
+                                <span>Assignments</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 ">
+                        <div class="exams">
+                            <a href="#" class="wobble-vertical" id="exams">
+                                <img data-lazy="imgs/examIcon.png"/>
+                                <span>Exams</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 ">
+                        <div class="time-table">
+                            <a href="#" class="wobble-vertical" id="timeTable">
+                                <img data-lazy="imgs/timeTable.png"/>
+                                <span>Time Table</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="schedule">
+                            <a href="#" class="wobble-vertical" id="schedule">
+                                <img data-lazy="imgs/student.png"/>
+                                <span>Schedule</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--End Of Nav-->
+
+
+        <!--<br/>-->
+
+        <!--start content-->
+        <div class="row contentMe">
+            <div class="page-details col-md-8 col-lg-offset-1 col-sm-8 white-txt">
+                <div class="page-heading page-title pull-left col-lg-3">Home</div>
+                <div class="page-heading col-lg-3"><i class="glyphicon glyphicon-home homeBold"></i>&nbsp;&nbsp; Home
+                </div>
+            </div>
+
+            <!--Content Here-->
+
+
+            <div class="col-lg-12 socialContainerDiv">
+                <div class="friends col-lg-3">
+                    <div class="col-lg-12 friendsContainer">
+                        <div class="col-lg-offset-2 col-lg-8 friendsWord zeropadding"></div>
+
+                        <!--start left slider-->
+                        <div class="col-lg-12 zeropadding">
+                            <div id="va-accordion" class="va-container">
+
+                                <div class="va-nav">
+                                    <span class="va-nav-prev">Previous</span>
+                                    <span class="va-nav-next">Next</span>
+                                </div>
+
+                                <div class="va-wrapper">
+                                    <div class="va-slice va-slice-1">
+                                        <div class="slide">
+                                            <img src=""/>
+                                        </div>
+                                        <h4 class="slide-title">Marketing</h4>
+
+                                        <!--<div class="va-content">-->
+                                        <!--<p>Henry Watson</p>-->
+                                        <!--<ul>-->
+                                        <!--<li><a href="#">About</a></li>-->
+                                        <!--<li><a href="#">Portfolio</a></li>-->
+                                        <!--<li><a href="#">Contact</a></li>-->
+                                        <!--</ul>-->
+                                        <!--</div>-->
+                                    </div>
+                                    <div class="va-slice va-slice-2">
+                                        <h3 class="slide-title">Management</h3>
+
+                                        <!--<div class="va-content">-->
+                                        <!--<p>Keith Johnson</p>-->
+                                        <!--<ul>-->
+                                        <!--<li><a href="#">About</a></li>-->
+                                        <!--<li><a href="#">Portfolio</a></li>-->
+                                        <!--<li><a href="#">Contact</a></li>-->
+                                        <!--</ul>-->
+                                        <!--</div>-->
+                                    </div>
+                                    <div class="va-slice va-slice-3">
+                                        <h3 class="slide-title">Visual Design</h3>
+
+                                        <!--<div class="va-content">-->
+                                        <!--<p>Andrew Alaniz</p>-->
+                                        <!--<ul>-->
+                                        <!--<li><a href="#">About</a></li>-->
+                                        <!--<li><a href="#">Portfolio</a></li>-->
+                                        <!--<li><a href="#">Contact</a></li>-->
+                                        <!--</ul>-->
+                                        <!--</div>-->
+                                    </div>
+                                    <div class="va-slice va-slice-4">
+                                        <h3 class="slide-title">Quality Control</h3>
+
+                                        <!--<div class="va-content">-->
+                                        <!--<p>Ben Freeman</p>-->
+                                        <!--<ul>-->
+                                        <!--<li><a href="#">About</a></li>-->
+                                        <!--<li><a href="#">Portfolio</a></li>-->
+                                        <!--<li><a href="#">Contact</a></li>-->
+                                        <!--</ul>-->
+                                        <!--</div>-->
+                                    </div>
+                                    <div class="va-slice va-slice-5">
+                                        <h3 class="slide-title">Web development</h3>
+
+                                        <!--<div class="va-content">-->
+                                        <!--<p>Alex Schuman</p>-->
+                                        <!--<ul>-->
+                                        <!--<li><a href="#">About</a></li>-->
+                                        <!--<li><a href="#">Portfolio</a></li>-->
+                                        <!--<li><a href="#">Contact</a></li>-->
+                                        <!--</ul>-->
+                                        <!--</div>-->
+                                    </div>
+
+
+                                    <div class="va-slice va-slice-5">
+                                        <h3 class="slide-title">Web development</h3>
+
+                                        <!--<div class="va-content">-->
+                                        <!--<p>Alex Schuman</p>-->
+                                        <!--<ul>-->
+                                        <!--<li><a href="#">About</a></li>-->
+                                        <!--<li><a href="#">Portfolio</a></li>-->
+                                        <!--<li><a href="#">Contact</a></li>-->
+                                        <!--</ul>-->
+                                        <!--</div>-->
+                                    </div>
+                                    <div class="va-slice va-slice-5">
+                                        <h3 class="va-title">Web development</h3>
+
+                                        <div class="va-content">
+                                            <p>Alex Schuman</p>
+                                            <ul>
+                                                <li><a href="#">About</a></li>
+                                                <li><a href="#">Portfolio</a></li>
+                                                <li><a href="#">Contact</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="va-slice va-slice-5">
+                                        <h3 class="va-title">Web development</h3>
+
+                                        <div class="va-content">
+                                            <p>Alex Schuman</p>
+                                            <ul>
+                                                <li><a href="#">About</a></li>
+                                                <li><a href="#">Portfolio</a></li>
+                                                <li><a href="#">Contact</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="va-slice va-slice-5">
+                                        <h3 class="va-title">Web development</h3>
+
+                                        <div class="va-content">
+                                            <p>Alex Schuman</p>
+                                            <ul>
+                                                <li><a href="#">About</a></li>
+                                                <li><a href="#">Portfolio</a></li>
+                                                <li><a href="#">Contact</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="va-slice va-slice-5">
+                                        <h3 class="va-title">Web development</h3>
+
+                                        <div class="va-content">
+                                            <p>Alex Schuman</p>
+                                            <ul>
+                                                <li><a href="#">About</a></li>
+                                                <li><a href="#">Portfolio</a></li>
+                                                <li><a href="#">Contact</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="va-slice va-slice-5">
+                                        <h3 class="va-title">Web development</h3>
+
+                                        <div class="va-content">
+                                            <p>Alex Schuman</p>
+                                            <ul>
+                                                <li><a href="#">About</a></li>
+                                                <li><a href="#">Portfolio</a></li>
+                                                <li><a href="#">Contact</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="va-slice va-slice-6">
+                                        <h3 class="va-title">Customer Support</h3>
+
+                                        <div class="va-content">
+                                            <p>Maria Wales</p>
+                                            <ul>
+                                                <li><a href="#">About</a></li>
+                                                <li><a href="#">Portfolio</a></li>
+                                                <li><a href="#">Contact</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="va-slice va-slice-7">
+                                        <h3 class="va-title">Server Administration</h3>
+
+                                        <div class="va-content">
+                                            <p>Paul White</p>
+                                            <ul>
+                                                <li><a href="#">About</a></li>
+                                                <li><a href="#">Portfolio</a></li>
+                                                <li><a href="#">Contact</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end left slider-->
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!--End Of Content Here-->
+        </div>
+
+        <!--end content exam view-->
+    </div>
+    <!-- End Of Main Body -->
+
+    <!-- End Of MainBG -->
+</div>
+<!--</div>-->
+<footer class="col-lg-12 footer">
+    <a href="#"><img class="col-lg-1 logo-footer col-lg-offset-5 hvr-pulse-shrink" src="images/logo-footer.png" alt=""/></a>
+</footer>
+
+
+<script src="JQuery/jquery-1.11.2.js"></script>
+
+<script src="lib/slick.js"></script>
+
+<script src="js/navScript.js"></script>
+
+
+<script src="JQuery/jquery-ui.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+<script src="js/jsSocialSlider/jquery-1.6.1.min.js"></script>
+<script src="js/jsSocialSlider/jquery.easing.1.3.js"></script>
+<script src="js/jsSocialSlider/jquery.vaccordion.js"></script>
+<script src="js/jsSocialSlider/jquery.mousewheel.js"></script>
+<script src="js/socialScript.js"></script>
+
+
+</body>
+</html>

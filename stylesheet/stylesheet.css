@@ -301,7 +301,8 @@ ul li:hover {
 .userAcc {
     margin-top: 3%;
 }
-.zeropadding{
+
+.zeropadding {
     padding-right: 0;
     padding-left: 0;
 }
@@ -509,9 +510,11 @@ ul li:hover {
 .badge {
     background-color: #014e8d;
 }
-.badge-nearpink{
-    background-color:#c84747;
+
+.badge-nearpink {
+    background-color: #c84747;
 }
+
 .notfication:hover {
     text-decoration: none;
 }
@@ -530,26 +533,26 @@ ul li:hover {
 
 /*start Mail page*/
 
-.inbox-box{
-    background:white;
-    min-height:947px;
-    max-height:947px;
+.inbox-box {
+    background: white;
+    min-height: 947px;
+    max-height: 947px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
 }
 
-.inbox-sidebar{
+.inbox-sidebar {
     background: #f96721;
-    min-height:947px;
+    min-height: 947px;
 }
 
-.pic-mail{
-    background:#468bfc;
+.pic-mail {
+    background: #468bfc;
     min-height: 232px;
 }
 
-.studentpic{
+.studentpic {
     width: 100px;
     height: 100px;
     background: white;
@@ -557,23 +560,25 @@ ul li:hover {
     -webkit-border-radius: 50px;
     border-radius: 50px;
     margin-top: 10px;
-    margin-left:10px;
+    margin-left: 10px;
 }
 
-.namein-mail{
-    color:#fe562b;
+.namein-mail {
+    color: #fe562b;
     font-size: 20px;
     font-weight: bold;
+    margin-top: 30%;
 }
 
-.compose{
-    margin-top:50px;
+.compose {
+    margin-top: 50px;
     /*width:auto;*/
 }
 
-.inbox-bg{
+.inbox-bg {
+
     margin-left: -10px;
-    width: 240px;
+    width: 100%;
     background: url("../images/inbox-bg.png") no-repeat;
     background-size: 100% 100%;
     color: white;
@@ -581,12 +586,19 @@ ul li:hover {
     font-size: 10pt;
     text-align: center;
     min-height: 50px;
-    vertical-align: 50px;
 }
 
-.normalbtn-inmail{
+.unread-mails {
+    background-color: #ffede9;
+}
+
+.mailsubject {
+    color: #6890e3;
+}
+
+.normalbtn-inmail {
     margin-left: -10px;
-    width: 240px;
+    width: 100%;
     background: url("../images/mailorange-bg.png");
     background-size: 100% 100%;
     color: white;
@@ -594,58 +606,62 @@ ul li:hover {
     font-size: 10pt;
     text-align: center;
     min-height: 50px;
-    vertical-align: 50px;
 }
 
-.num-bg{
+.num-bg {
     background: url("../images/num-bg.png");
     background-size: 100% 100%;
 }
 
-.num-bg-dark{
+.num-bg-dark {
     background: url("../images/num-bg-dark.png") no-repeat;
     background-size: 100% 100%;
 }
 
-.zeropadding{
+.zeropadding {
     padding-right: 0;
     padding-left: 0;
 }
 
-.topredbar{
+.topredbar {
     height: 120px;
     background: #c03716 !important;
 }
 
-.border-right{
+.border-right {
     border-right: 1px solid #f96721;
 }
 
-span.topredbar{
+span.topredbar {
     background: black;
 }
 
-.under-icon{
+.under-icon {
     text-align: center;
 }
-.mailIconsContainer{
+
+.mailIconsContainer {
     width: 100px;
 }
-.mailIconDiv{
+
+.mailIconDiv {
     height: 80px;
 }
-.mailContentDiv{
+
+.mailContentDiv {
     margin-top: 15px;
 }
-.mail{
+
+.mail {
     margin-left: -15px;
 }
-.mails-box{
+
+.mails-box {
     overflow-y: auto;
     max-height: 796px;
 }
 
-.mailBorder{
+.mailBorder {
     margin-left: 30px;
     width: 635px;
     margin-top: 2px;
@@ -654,25 +670,53 @@ span.topredbar{
     background: url("../images/mailBorder.png") no-repeat;
     background-size: 100% 100%;
 }
-.mailInfo{
+
+.mailInfo {
     margin-top: 5px;
     background: url("../images/mailInfo.png") no-repeat;
     background-size: 100% 100%;
 }
-.mailOwnerPic{
+
+.mailOwnerPic {
     border: 5px #458afb solid;
     border-radius: 50px;
 }
-.mailDateSpan{
+
+.mailDateSpan {
     margin-right: 20px;
 }
-.message{
-    border-top: solid #000000 thin ;
+
+.message {
+    border-top: solid #000000 thin;
 }
+
 /*end Mail page*/
 
-
 /*start mails page*/
+/*#search input[type="text"] {*/
+    /*border: 1px solid #d1d1d1;*/
+    /*font: bold 12px Arial, Helvetica, Sans-serif;*/
+    /*color: #bebebe;*/
+    /*width: 150%;*/
+    /*padding: 6px 15px 6px 35px;*/
+    /*-webkit-border-radius: 20px;*/
+    /*-moz-border-radius: 20px;*/
+    /*border-radius: 20px;*/
+    /*text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);*/
+    /*-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;*/
+    /*-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;*/
+    /*box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;*/
+    /*-webkit-transition: all 0.7s ease 0s;*/
+    /*-moz-transition: all 0.7s ease 0s;*/
+    /*-o-transition: all 0.7s ease 0s;*/
+    /*transition: all 0.7s ease 0s;*/
+    /*margin-top: 70px;*/
+    /*margin-left: 10px;*/
+/*}*/
+
+/*#search input[type="text"]:focus {*/
+    /*width: 150%;*/
+/*}*/
 #search input[type="text"] {
     border: 1px solid #d1d1d1;
     font: bold 12px Arial,Helvetica,Sans-serif;
@@ -697,22 +741,28 @@ span.topredbar{
 #search input[type="text"]:focus {
     width: 120%;
 }
-.noBorder{
+
+.noBorder {
     border: none;
 }
-.sideBarBtn{
+
+.sideBarBtn {
     margin-top: 10px;
 }
-a:hover{
+
+a:hover {
     text-decoration: none !important;
 }
-a:focus{
+
+a:focus {
     text-decoration: none !important;
 }
-.marginTopBottom25{
+
+.marginTopBottom25 {
     margin-top: 25px;
     margin-bottom: 25px;
 }
+
 /*end mails page*/
 
 /*start assignment page*/
@@ -734,59 +784,69 @@ a:focus{
 .timer {
     height: 100%;
 }
-.timer span{
+
+.timer span {
     display: inline-block;
     margin-top: 12%;
 }
+
 .examInfo {
     text-align: left;
 }
+
 .materialName {
     height: 100%;
     line-height: 30px;
     font-size: 28px;
     font-weight: 900;
 }
+
 .materialInfoContainer {
     border-left: 2px #ffffff solid;
 }
+
 .materialInfo {
     color: #bcb88c;
     font-size: 28px;
 }
-.teacherBG{
+
+.teacherBG {
     border: 8px #6bcbca solid;
     margin-right: 30px;
 }
 
-.teacherImg{
+.teacherImg {
     width: 85px !important;
     height: 85px;
     max-width: 85px;
     max-height: 85px;
     border-radius: 50px !important;
 }
-.teacherNameDiv{
+
+.teacherNameDiv {
     height: 100%;
     font-size: 22px;
 }
-.teacherNameDiv span{
+
+.teacherNameDiv span {
     display: inline-block;
     margin-top: 70%;
 }
+
 ::-webkit-scrollbar {
     width: 12px;
 }
 
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
 }
+
 #examHeader.affix {
     position: fixed;
     top: 0;
@@ -794,39 +854,81 @@ a:focus{
     width: 826px;
     height: 110px;
 }
+
+/*end page assignment*/
+/*start social page*/
+.socialContainerDiv {
+    /*background: #ff0000;*/
+    padding-bottom: 250px;
+}
+
+.friends {
+    /*background: #ffff00;*/
+    background: url("../images/friendsBG.png") no-repeat;
+    background-size: 100% 100%;
+    min-height: 930px;
+}
+
+.friendsContainer {
+    margin-left: -5%;
+    margin-top: 5%;
+}
+
+.friendsWord {
+    background: url("../images/friendsWord.png") no-repeat;
+    background-size: 100% 100%;
+    min-height: 40px;
+}
+.slide-title{
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    color:#fff;
+    text-shadow: 0px 0px 1px white;
+}
+.slide{
+    width: 40%;
+}
+/*.sliderContainer{*/
+    /*margin-top: 0px;*/
+/*}*/
+/*end social page*/
 /*Events*/
-.buttonInfo{
-    background:url("../images/arowwButtonBlue.png") no-repeat;
+.buttonInfo {
+    background: url("../images/arowwButtonBlue.png") no-repeat;
     background-size: 100% 100%;
     border: 0;
     width: auto;
     padding-top: 8px !important;
     padding-bottom: 8px !important;
 }
-.arrowButtonBlue{
-    background:url("../images/arowwButtonBlue.png") no-repeat;
+
+.arrowButtonBlue {
+    background: url("../images/arowwButtonBlue.png") no-repeat;
     background-size: 100% 100%;
     text-align: center;
     width: 50px;
     padding-top: 8px;
     padding-bottom: 8px;
 }
-.arrowButtonBlueActive{
-    background:url("../images/arowwButtonBlueActive.png") no-repeat;
+
+.arrowButtonBlueActive {
+    background: url("../images/arowwButtonBlueActive.png") no-repeat;
     background-size: 100% 100%;
     text-align: center;
     width: 50px;
     padding-top: 8px;
     padding-bottom: 8px;
 }
-.buttonInfoActive{
-    background:url("../images/arowwButtonBlueActive.png") no-repeat;
+
+.buttonInfoActive {
+    background: url("../images/arowwButtonBlueActive.png") no-repeat;
     background-size: 100% 100%;
     border: 0;
     width: auto;
     padding-top: 8px !important;
     padding-bottom: 8px !important;
 }
+
 .green-txt {
     color: green;
     font-size: 38px;
