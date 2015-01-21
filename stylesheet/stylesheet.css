@@ -677,8 +677,8 @@ span.topredbar{
     border: 1px solid #d1d1d1;
     font: bold 12px Arial,Helvetica,Sans-serif;
     color: #bebebe;
-    width: 150px;
-    padding: 6px 15px 6px 35px;
+    width: 100%;
+    padding: 6px 10px 6px 5px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
@@ -695,7 +695,7 @@ span.topredbar{
 }
 
 #search input[type="text"]:focus {
-    width: 175px;
+    width: 120%;
 }
 .noBorder{
     border: none;
